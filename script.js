@@ -6,7 +6,7 @@ function timeout(data, ms) {
         }, ms)
     });
 };
-timeout({name: "user"}, 1000).then((data) => console.log("Hello!", data));
+timeout({name: "Vic"}, 1000).then((data) => console.log("Hello!", data.name));
 
 //-------#5
 async function getUserInfo() {
